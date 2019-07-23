@@ -1,0 +1,85 @@
+<link rel="stylesheet" href="frontend.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="title-bar">
+ <img src="C:\Users\GWC\Desktop\MoneyFlowNew.png" height="150px">
+  <a href="about.html"><i class="fa fa-info-circle"></i></a>
+  <a href="comments.html" class="active"><i class="fa fa-commenting"></i></a>
+  <a href="budget.html"><i class="fa fa-calculator"></i></a>
+  <a href="home.html"><i class="fa fa-home"></i></a>
+</div>
+
+<center>
+  <h2>USERS COMMENTS/QUESTIONS</h2>
+    <form class="comment_sect">
+        COMMENTS:
+        <input id="comment" type="text" name="comment" value=""><br><br>
+    </form>
+</center>
+
+<center><button onclick="myFunction()">post comment</button></center>
+
+<p>SEE YOUR COMMENTS</p>
+<!--<table id="myTable">-->
+<!--    <tr>-->
+<!--        <td> </td>-->
+<!--    </tr>-->
+<!--</table>-->
+<!--<br>-->
+
+
+<script>
+    function myFunction(){
+        var table = document.getElementById("myTable");
+        var row = table.insertRow(0);
+        var cell1 = row.insertCell(0);
+        cell1.innerHTML = document.getElementById("comment").value;
+    }
+</script>
+<html>
+<head>
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+</style>
+</head>
+<body>
+
+<!--<h2>USERS COMMENTS/QUESTIONS</h2>-->
+
+<table style="width:100%" class="table">
+  <caption>COMMENTS</caption>
+
+  <tr>
+    <td>Rebecca- I am a 11th grader at Denton High School.This app has helped me so much in being able to manage and helping with providing useful resources</td>
+    <td>Jason- I love this website. It helped me save for my car. which I was able to get it 1 year earlier then I planned. I will definitely be showing this to my friends.</td>
+  </tr>
+  <tr>
+    <td>Kim- When my friend told me about this website I didnt really care about saving my money, but when I started looking on the website it actualy gave me some good iformation. Which then lead me to be excited to save my money.  </td>
+    <td>John- I was looking at ways for my son to start saving his money, and I came across this website which has a lot of good resources. </td>
+  </tr>
+  <tr>
+    <td> Tiffiany-This is trash I could have asked my mom to tell me all of this. I think everyone should know how to manage their money I dont need anyone tellim f we what to do with my money
+    <td><table id="myTable">
+    <tr>
+        <td> </td>
+    </tr>
+</table>
+<br>
+</td>
+  </tr>
+</table>
+
+</body>
+
+<div class="footer">
+ <p>Footer</p>
+</div>
+
+</html>

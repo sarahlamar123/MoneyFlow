@@ -1,0 +1,48 @@
+<head>
+<link rel="stylesheet" href="frontend.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="budget.js"></script>
+</head>
+
+<body class="body">
+  <div class="title-bar">
+   <img src="C:\Users\GWC\Desktop\MoneyFlowNew.png" height="150px">
+    <a href="about.html"><i class="fa fa-info-circle"></i></a>
+    <a href="comments.html"><i class="fa fa-commenting"></i></a>
+    <a href="budget.html" class="active"><i class="fa fa-calculator"></i></a>
+    <a href="home.html"><i class="fa fa-home"></i></a>
+  </div>
+
+</body>
+
+<div class="newspend">
+  <h1>Budget Tracker</h1>
+  <p>Use our virtual checkbook to track your spending and earning.</p>
+  <form>
+    Expense Name: <input type="text" id="name" value="">
+    <!-- <span class="error">* <?php echo $nameErr;?></span> -->
+    <br><br>
+
+    Amount: <input type="text" id="amount" value="">
+    <!-- <span class="error">* <?php echo $emailErr;?></span> -->
+    <br><br>
+    <input type="button" value="Submit" onClick="javascript:addRow()" id="add">
+
+    <table id="table" class="center">
+    <thead>
+    <tr>
+        <th>Expense Name</th>
+        <th>Amount</th>
+    </tr>
+
+
+    <!-- <span id="val"></span> -->
+    </thead>
+    </form>
+    </table>
+
+</div>
+
+<div class="footer">
+ <p>Footer</p>
+</div>
