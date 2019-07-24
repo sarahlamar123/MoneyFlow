@@ -17,8 +17,13 @@
 
 <div class="newspend">
   <h1>Budget Tracker</h1>
-  <p>Use our virtual checkbook to track your spending and earning.</p>
-  <form>
+  <p>Use our virtual checkbook to track your spending and earnings. This is a demo of our real checkbook and it will not save anything you type. To use our real version, <br> <a href="registration.html" class="link">Sign Up Here!</a></p>
+  <br>
+
+  <hr>
+
+  <br>
+  <form class="budform">
     Expense Name: <input type="text" id="name" value="">
     <!-- <span class="error">* <?php echo $nameErr;?></span> -->
     <br><br>
@@ -26,17 +31,16 @@
     Amount: <input type="text" id="amount" value="">
     <!-- <span class="error">* <?php echo $emailErr;?></span> -->
     <br><br>
-    <input type="button" value="Submit" onClick="javascript:addRow()" id="add">
+    <input type="button" value="Submit" class="button" onClick="javascript:addRow()" id="add">
+    <br>
 
+    <br>
     <table id="table" class="center">
     <thead>
     <tr>
         <th>Expense Name</th>
         <th>Amount</th>
     </tr>
-
-
-    <!-- <span id="val"></span> -->
     </thead>
     </form>
     </table>
@@ -44,5 +48,10 @@
 </div>
 
 <div class="footer">
- <p>Footer</p>
+  <br>
+ <a href="home.html">Home Page</a>
+ <a href="comments.html">Comments Page</a>
+ <a href="registration.html">Registration Page</a>
+ <a href="budget.html">Budget Page</a>
+  <br>
 </div>
