@@ -1,0 +1,62 @@
+<link rel="stylesheet" href="frontend.css">
+
+<html>
+<body>
+
+<script src="budget.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="title-bar">
+ <img src="C:\Users\GWC\Desktop\MoneyFlowNew.png" height="150px">
+  <a href="about.html"><i class="fa fa-info-circle"></i></a>
+  <a href="comments.html"><i class="fa fa-commenting"></i></a>
+  <a href="budgetillusion.html"><i class="fa fa-calculator"></i></a>
+  <a href="home.html"><i class="fa fa-home"></i></a>
+</div>
+
+<form class = "form" style="margin-left:25%; margin-right:25%; width:50%;text-align:center;">
+  <div id="formHeader"><h1>REGISTRATION FORM</h1></div>
+    <h3> First name:<br>
+    <input type="text" name="firstname" required><br>
+    Last name:<br>
+    <input type="text" name="lastname" reqired><br>
+    Email Address:<br>
+    <input type="type" name="emailaddress"required><br></h3>
+
+    <form style="margin-left:25%; margin-right:25%; width:50%;text-align:center;">
+      <h3>DEBIT/NO DEBIT</h3>
+      <p>
+      <input type="radio" name="option" value="Debit"> I have a Debit/ Credit card<br>
+      <input type="radio" name="option" value="Cash"> I do not have Debit/Credit card<br>
+      </p>
+    </form>
+    <form style="margin-left:25%; margin-right:25%; width:50%;text-align:center;">
+      <h3>GENDER</h3>
+      <input type="radio" name="gender" value="male"> Male<br>
+      <input type="radio" name="gender" value="female"> Female<br>
+      <input type="radio" name="gender" value="other"> Other<br>
+      <input type="radio" name="gender" value="other"> I Rather Not Say<br>
+    </form>
+
+  <!-- <div id="formBody" class="formField"></div> -->
+    <form style="margin-left:25%; margin-right:25%; width:50%;text-align:center;">
+      <h3>Username:</h3>
+      <input type="username" name="username" required placeholder="Username" >
+      <br>
+      <h3>Password:</h3>
+      <input type="password" name="password" required placeholder="Password" >
+
+    </form>
+    <button class="button" type="regusterbtn" onclick="window.location.href='budgetillusion.html'">Register Me!</button>
+</form>
+  </body>
+
+  <div class="footer">
+    <br>
+   <a href="home.html">Home Page</a>
+   <a href="comments.html">Comments Page</a>
+   <a href="registration.html">Registration Page</a>
+   <a href="budget.html">Budget Page</a>
+    <br>
+  </div>
+
+  </html>
